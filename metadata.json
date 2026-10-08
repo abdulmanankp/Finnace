@@ -1,0 +1,6 @@
+{
+  "name": "Hisaab | Flat & Living Money Manager",
+  "description": "Personal money management and expense tracker separating Flat and Living finances, tracking accounts, debt, and lending.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

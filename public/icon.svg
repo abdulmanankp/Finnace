@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="flatGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="livingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <rect x="24" y="24" width="464" height="464" rx="92" fill="none" stroke="#1e293b" stroke-width="6"/>
+  <!-- Left Side: Flat / Building / Roof -->
+  <path d="M 140 256 L 240 160 L 240 352 L 140 352 Z" fill="url(#flatGrad)" opacity="0.95"/>
+  <path d="M 120 260 L 240 144 L 240 168 L 140 264 Z" fill="#7dd3fc"/>
+  <!-- Right Side: Living / Person / Growth -->
+  <path d="M 272 160 L 372 256 L 372 352 L 272 352 Z" fill="url(#livingGrad)" opacity="0.95"/>
+  <circle cx="322" cy="204" r="28" fill="#a7f3d0"/>
+  <!-- Center dividing line / Balance beam -->
+  <rect x="248" y="140" width="16" height="228" rx="8" fill="#f8fafc"/>
+  <!-- Small currency / rupee dot accent -->
+  <circle cx="256" cy="116" r="14" fill="#38bdf8"/>
+  <circle cx="256" cy="392" r="14" fill="#34d399"/>
+</svg>
